@@ -1,7 +1,6 @@
-# Calculating visualisation of the Mandelbrot set using AVX instruction set
-It is an educational project for the second term of MIPT 
+# CUDA version 
 ## Requirments:
-1. CPU with AVX-2 instruction compatibility
+1. CUDA - latest version
 1. SFML - latest version
 ## Build
 Just type 
@@ -13,8 +12,7 @@ Just type
 2. '1' for zoom-in
 3. '0' for zoom-out
 4. 'Q' for choose slow mode without AVX
-5. 'W' for choose fast mode with AVX
-6. 'ESC' for close window
-
-## Conclusion
-The final acceleration of the program is from three to four times
+5. 'ESC' for close window
+##Also
+1. By default, this version use double to calculate, but you can sacrifice some quality and accelerate programm in 2 times
+2. I have written render function, which allows you creates beautiful and high-quality images. 
